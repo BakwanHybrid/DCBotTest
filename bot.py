@@ -1,5 +1,5 @@
 import discord
-from main import gen_pass
+from pwmaker import gen_pass
 import random
 
 
@@ -29,4 +29,4 @@ async def on_message(message):
     else:
         await message.channel.send(message.content)
 
-client.run("MTMxOTk2MTYzODYwNjIxMzIxMg.Gj2P74.L4RjYh_uXqLWRcHSlXtzBrHGP8KP099mDXngiQ")
+client.run(#INSERT TOKEN HERE#)
